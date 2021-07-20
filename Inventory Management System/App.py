@@ -24,8 +24,8 @@ cur = conn.cursor()
 # mail config
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'inventorymanagement777@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Inventory@777'
+app.config['MAIL_USERNAME'] = '//owners email'
+app.config['MAIL_PASSWORD'] = '//owners email password'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
